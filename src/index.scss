@@ -1,0 +1,224 @@
+/* Variables */
+$fill-20-viewport: 20vh;
+$fill-60-viewport: 60vh;
+$fill-40-viewport: 40vh;
+
+$text-white-80: rgba(255,255,255,0.8);
+$text-white-70: rgba(255,255,255,0.7);
+$text-white: rgb(255,255,255);
+$text-black: rgba(0,0,0,1);
+$text-brown: #522E1F;
+
+html,
+body {
+	height: 100%;
+	margin: auto;
+	padding: 0;
+}
+/* Navigation */
+.navbar {
+  background-color: #fc6e51;
+  padding: 15px 40px;
+}
+
+/* Logo */
+.navbar-brand {
+  padding-right: 60px;
+  color: black;
+  font-size: 35px;
+  font-family: 'Cherry Swash', cursive;
+  &:hover {
+    color: white;
+  }
+}
+.tagline {
+  font-size: 18px;
+}
+
+/* Dropdown Menu */
+.navbar-nav {
+  padding-left: 50px;
+  font-family: 'Kreon', serif;
+  font-size: 22px;
+  a:hover {
+    color: white;
+  }
+}
+.nav-link {
+  color: $text-black;
+}
+/* End of Navigation */
+
+/* Image Carousel */
+#container, .carousel {
+	height:100%;
+	margin: 0;
+	width: 100%;
+}
+.image-slide {
+	height: 100%;
+	width: 100%;
+	transition: background-image .3s ease-in-out;
+}
+
+.slide-arrow {
+	color: $text-black;
+	cursor: pointer;
+	font-size: 2rem;
+	position: fixed;
+	top: 50%;
+}
+
+.slide-arrow.right {
+	right: 1rem;
+}
+
+.slide-arrow.left {
+	left: 1rem;
+}
+/* End Carousel */
+
+/* Intro Section */
+#intro {
+  background: linear-gradient(rgba(0, 0, 44, 0.3), rgba(0,0,0,0.8)), url(./images/coffeehouseBackground.jpg) 0% 0%/cover ;
+  h2, h5, p {
+    font-family:'Kreon', serif;
+    color: $text-white;
+  }
+  h2 {
+    font-size: 35px;
+    min-height: $fill-40-viewport;
+  }
+  h4, h5 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 20px;
+    color: $text-white-70;
+  }
+}
+/* End of Intro */
+
+/* About Section */
+#about {
+  h3 {
+    font-size: 30px;
+    font-family: 'Cherry Swash', cursive;
+    color: $text-brown;
+  }
+  p {
+    padding: 0px 60px;
+    font-size: 20px;
+    color: $text-brown;
+  }
+  img {
+    max-height: 200px;
+    max-width: 230px;
+  }
+  a {
+    text-decoration: none;
+    color: #522E1F;
+    &:hover {
+      color: #fc6e51;
+    }
+  }
+}
+/* End of About */
+
+/* Menu Section */
+#menu {
+  background: #DCDCDC;
+  font-family: 'Kreon', serif;
+  h4 {
+    font-size: 30px;
+    color: #e26348
+  }
+  h3 {
+    font-size: 27px;
+    color: $text-brown;
+  }
+  h5 {
+    font-size: 22px;
+    color: $text-brown;
+  }
+  p {
+    color: $text-brown;
+  }
+  .price {
+    font-size: 18px;
+  }
+}
+/* End of Menu */
+
+/* Coffee Blends Section */
+#blends {
+  .blend-box {
+    max-height: 300px;
+    max-width: 270px;
+    background-color: black;
+    border: 1px solid white;
+  }
+  h4 {
+    font-size: 37px;
+    color: $text-black;
+  }
+  h3 {
+    color: $text-white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  p {
+    font-size: 20px;
+    color: $text-white-80;
+  }
+  .roast {
+    font-size: 24px;
+  }
+}
+/* End of Coffee Blends*/
+
+/* Locations Section */
+#locations {
+  background: linear-gradient(rgba(0, 0, 44, 0.3), rgba(0,0,0,0.8)), url("./images/coffeePour.jpg") 0% 0%/cover;
+  #map {
+  	height: 80%;
+    width: 80%;
+  	margin: auto;
+  	padding: 0;
+    visibility: visible;
+  }
+  h3 {
+    font-family:'Kreon', serif;
+    font-size: 35px;
+    color: $text-white-80;
+  }
+  h4 {
+    font-size: 26px;
+    text-decoration: underline;
+    color: $text-white-80;
+  }
+  p {
+    font-size: 19px;
+    color: $text-white;
+  }
+}
+/* End of Locations */
+
+/* Footer Section */
+#footer {
+  background-color: black;
+  .navbar-brand {
+    font-size: 25px;
+    color: #fc6e51;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: #ffac25;
+    }
+  }
+
+}
+/* End Footer */

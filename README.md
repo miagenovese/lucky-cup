@@ -1,3 +1,13 @@
+This is a website for a coffee shop built in HTML, Sass, Bootstrapv4, and 
+React.js. The Navigation is purely Bootstrapv4, while the images slider is
+React.js. The Google Maps API in the locations section is vanilla JS.
+
+Feel free to clone and make it your own!
+
+Clone #####
+git clone https://github.com/miagenovese/lucky-cup.git
+
+Licenses ######
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

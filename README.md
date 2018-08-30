@@ -1,6 +1,8 @@
 This is a website for a coffee shop built in HTML, Sass, Bootstrapv4, and 
 React.js. The Navigation is purely Bootstrapv4, while the images slider is
 React.js. The Google Maps API in the locations section is vanilla JS.
+Originally I built this app on Codepen before migrating it to cloud9 and 
+adding the image slider.
 
 Feel free to clone and make it your own!
 

@@ -61,7 +61,7 @@ body {
 /* End Carousel */
 /* Intro Section */
 #intro {
-  background: linear-gradient(rgba(0, 0, 44, 0.3), rgba(0, 0, 0, 0.8)), url(./images/coffeehouseBackground.jpg) 0% 0%/cover; }
+  background: linear-gradient(rgba(0, 0, 44, 0.3), rgba(0, 0, 0, 0.8)), url(/images/coffeehouseBackground.jpg) 0% 0%/cover; }
   #intro h2, #intro h5, #intro p {
     font-family: 'Kreon', serif;
     color: white; }
@@ -136,7 +136,7 @@ body {
 /* End of Coffee Blends*/
 /* Locations Section */
 #locations {
-  background: linear-gradient(rgba(0, 0, 44, 0.3), rgba(0, 0, 0, 0.8)), url("./images/coffeePour.jpg") 0% 0%/cover; }
+  background: linear-gradient(rgba(0, 0, 44, 0.3), rgba(0, 0, 0, 0.8)), url("/images/coffeePour.jpg") 0% 0%/cover; }
   #locations #map {
     height: 80%;
     width: 80%;

@@ -1,12 +1,20 @@
 /*global React*/
 /*global ReactDOM*/
+import React from 'react';
+
+import croissant from '../images/croissant.jpg';
+import coffeePour from '../images/coffeePour.jpg';
+import frenchPress from '../images/frenchPress.jpg'
+import herbalTea from '../images/herbal-tea.jpg';
+import matchaLatte from '../images/matcha-latte.jpg';
+
 const imgUrls = [
-  require("../images/croissant.jpg"),
-  require("../images/herbal-tea.jpg"),
-  require("../images/matcha-latte.jpg"),
-  require("../images/mochaLatte.jpg"),
-  require("../images/waffle.jpg")
-  ];
+  croissant,
+  coffeePour,
+  frenchPress,
+  herbalTea,
+  matchaLatte
+];
 
 export default class Carousel extends React.Component {
 	constructor (props) {
@@ -64,7 +72,6 @@ const Arrow = ({ direction, clickFunction, glyph }) => (
 const ImageSlide = ({ url }) => {
 	const styles = {
 		backgroundImage: `url(${url})`,
-		backgroundSize: '300px 100px',
 		backgroundPosition: 'center'
 	};
 	
@@ -72,9 +79,3 @@ const ImageSlide = ({ url }) => {
 		<div className="image-slide" style={styles}></div>
 	);
 }
-
-ReactDOM.render(
-  <Carousel />,
-  document.getElementById('container')
-);
-

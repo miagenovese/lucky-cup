@@ -4,6 +4,8 @@ React.js. The Google Maps API in the locations section is vanilla JS.
 Originally I built this app on Codepen before migrating it to cloud9 and 
 adding the image slider.
 
+A big thanks to @willamesoares (Will Soares) for his help with the last commit.
+
 Feel free to clone and make it your own!
 
 Clone #####
